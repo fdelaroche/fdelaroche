@@ -24,41 +24,42 @@ August 2023, present
 - Champion product testability by collaborating closely with developers and product teams to design easier-to-test features, which accelerates test coverage growth and minimizes long-term maintenance overhead.
 - Elevate team expertise by mentoring and coaching new hires on best practices for test readability, structure, and maintainability, fostering a strong, consistent quality culture.
 - Ensure long-term code health by actively contributing to clean, maintainable, and scalable code, and conducting detailed code reviews focused on actionable, improvement-oriented feedback.
+- Build scripts with NodeJS and TamperMonkey to improve navigating through builds, and to compile test results to speed up investigation.
 - Spearhead the evaluation and adoption of modern testing tools (e.g., Cypress) to continuously optimize test execution speed, reliability, ease of debugging, and traceability.
 
 ### Software Developer in Test, IBM Cognos Analytics
 
 May 2018, August 2023
 
-- Develop and execute automated tests using Selenium v3 and 4, Node.js with theIntern/Leadfoot framework for new features and enhancements IBM for Cognos Analytics (Dashboard/Storytelling/Explore modules), providing comprehensive test coverage across both on-premises and cloud deployments.
-- Create, maintain and execute test cases of different kind (functional, regression, conformance, confidence, etc.) in qTest and TestRail.
+- Developed and executed automated tests using Selenium v3 and 4, Node.js with theIntern/Leadfoot framework for new features and enhancements IBM for Cognos Analytics (Dashboard/Storytelling/Explore modules), providing comprehensive test coverage across both on-premises and cloud deployments.
+-Created, maintained and executeed test cases of different kind (functional, regression, conformance, confidence, etc.) in qTest and TestRail.
 - Scrum master of teams of 5 to 12 people.
-- Investigate and log issues in Jira and verify fixes.
-- Collaborate with developers to ensure new features can be easily tested, are bug-free and do not introduce regressions.
-- Consolidate design choices and application behaviours with developers, UX, Product Managers, etc.
-- Provide assistance to customers with incident and problem troubleshooting.
+- Investigated and logged issues in Jira and verified fixes.
+- Collaborated with developers to ensure new features could be easily tested, were bug-free and did not introduce regressions.
+- Consolidated design choices and application behaviours with developers, UX, Product Managers, etc.
+- Provided assistance to customers with incident and problem troubleshooting.
 
 ### Integration and Quality Assurance Analyst, Sogeti
 
 October 2013, December 2017
 
-As a member of the Quality Assurance and Integration team, I test and integrate a dozen of applications’ updates as well as new application related to a French public health insurance program. Major realizations include the migration of COBOL and Java-based applications from Solaris to AIX and from Oracle 9 to 11 by performing – among others – A/B testing on large datasets, find out the origin of differences and prepare software packages for installation by the production team. I also tested a major-scale multi-interconnected applications data merging project.
+As a member of the Quality Assurance and Integration team, I tested and integrated a dozen of applications’ updates as well as new application related to a French public health insurance program. Major realizations include the migration of COBOL and Java-based applications from Solaris to AIX and from Oracle 9 to 11 by performing – among others – A/B testing on large datasets, find out the origin of differences and prepare software packages for installation by the production team. I also tested a major-scale multi-interconnected applications data merging project.
 
-- Automate manual tests into an automated testing tool (Squash TA) and maintain them
-- Revamp manual compilation and deployment procedures into Continuous Integration and Deployment framework with Maven, Nexus, Jenkins, Ansible, and Docker
-- Test web applications GUI and web services interface
-- Maintain source code using source control tools Git and Serena Dimensions
-- Write Bash and Python scripts to automate the most frequent tasks
-- Partake in Agile, waterfall and iterative project organizations
-- Use HP ALM tools to report defects and troubleshoot them as well as propose solutions or workarounds
-- Gather requirements from Business Analysts, translate them to tests
-- Write tests using various advanced testing concepts and procedure choose depending on the situation at hand
-- Perform User Acceptance Tests as well as technical Qualification
-- Manage Linux, Solaris and AIX servers
-- Detect and analyze database performance bottleneck queries
-- Write and maintain testing and deployment documentation 
-- Package software with automatic deployment in production environments
-- Communicate reports about ongoing projects status to management and business analysts
+- Automated manual tests into an automated testing tool (Squash TA) and maintain them.
+- Revamped manual compilation and deployment procedures into Continuous Integration and Deployment framework with Maven, Nexus, Jenkins, Ansible, and Docker.
+- Tested web applications GUI and web services interface.
+- Maintained source code using source control tools Git and Serena Dimensions.
+- Wrote Bash and Python scripts to automate the most frequent tasks.
+- Partook in Agile, waterfall and iterative project organizations.
+- Used HP ALM tools to report defects and troubleshoot them as well as propose solutions or workarounds.
+- Gathered requirements from Business Analysts, translate them to tests.
+- Wrote tests using various advanced testing concepts and procedure choose depending on the situation at hand.
+- Performed User Acceptance Tests as well as technical Qualification.
+- Managed Linux, Solaris and AIX servers.
+- Detected and analyzed database performance bottleneck queries.
+- Wrote and maintained testing and deployment documentation.
+- Packaged software with automatic deployment in production environments.
+- Communicated reports about ongoing projects status to management and business analysts.
 
 ### Application Integration and Management of Production Environments, Gfi Informatique
 
