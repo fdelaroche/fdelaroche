@@ -101,4 +101,3 @@ Daily check-up and recovery of batch jobs and apply major software updates on pr
 
 - Native French
 - Fluent English
-- 
