@@ -1,4 +1,4 @@
-# Rublique-à-brac
+# Rubrique-à-brac
 
 My personal documentation.
 
