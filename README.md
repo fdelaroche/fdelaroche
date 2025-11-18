@@ -1,5 +1,8 @@
-# Rubrique-à-brac
+## Hi there 👋
 
-My personal documentation.
+My name's Frédéric Delaroche and I am a Senior Software Development Engineer in Test. I specialized in JavaScript development of automated tests and integrate them in complex CI/CD pipelines.
 
-My resume [here](resume.md)
+You can find my resume [here](resume.md)
+
+This repo is my collection of notes and useful URLs. Enjoy!
+
