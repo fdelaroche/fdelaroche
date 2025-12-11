@@ -8,15 +8,13 @@ Senior Software Developer in Test with 7 years of experience specializing in sca
 
 I design and integrate quality frameworks directly into CI/CD pipelines, enabling rapid, reliable delivery across complex, large-scale systems. Leveraging a QC mindset informed by development practices, I advocate for strong product testability.
 
-I am currently transitioning into a core development role, focused on building robust software solutions with an inherent Quality Control perspective.
-
 Motto: One man's software doesn't have to be another man's nightmare.
 
 ## Experience
 
 ### Senior Software Developer in Test, IBM Watsonx BI Assistant
 
-August 2023, present
+> August 2023, present
 
 - Architect and implement a robust, scalable automation framework (UI/API/REST) for IBM Watsonx BI Assistant (a cloud-based and AI-powered Data Analytics SaaS product), from proof-of-concept to General Release.
 - Drive continuous quality and velocity by engineering efficient automation suites that enable swift test refactoring following product changes and seamless integration of new feature coverage.
@@ -29,64 +27,58 @@ August 2023, present
 
 ### Software Developer in Test, IBM Cognos Analytics
 
-May 2018, August 2023
+> May 2018, August 2023
 
 - Developed and executed automated tests using Selenium v3 and 4, Node.js with theIntern/Leadfoot framework for new features and enhancements IBM for Cognos Analytics (Dashboard/Storytelling/Explore modules), providing comprehensive test coverage across both on-premises and cloud deployments.
--Created, maintained and executeed test cases of different kind (functional, regression, conformance, confidence, etc.) in qTest and TestRail.
+-Created, maintained and executed test cases of different kind (functional, regression, conformance, confidence, etc.) in qTest and TestRail.
 - Scrum master of teams of 5 to 12 people.
 - Investigated and logged issues in Jira and verified fixes.
 - Collaborated with developers to ensure new features could be easily tested, were bug-free and did not introduce regressions.
 - Consolidated design choices and application behaviours with developers, UX, Product Managers, etc.
 - Provided assistance to customers with incident and problem troubleshooting.
 
-### Integration and Quality Assurance Analyst, Sogeti
+### Quality Assurance Analyst / DevOps, Sogeti
 
-October 2013, December 2017
+> October 2013, December 2017
+Tested and integrated 12+ application updates for a French public health insurance program, ensuring seamless deployments and regulatory compliance. Led migration of COBOL and Java applications from Solaris to AIX and Oracle 9 to 11, conducting A/B testing on large datasets to validate equivalence and identify critical discrepancies. Prepared and packaged software for production deployment, enabling smooth transitions with zero integration failures. Validated major multi-interconnected data merging initiative across enterprise systems, ensuring data integrity and system stability.
 
-As a member of the Quality Assurance and Integration team, I tested and integrated a dozen of applications’ updates as well as new application related to a French public health insurance program. Major realizations include the migration of COBOL and Java-based applications from Solaris to AIX and from Oracle 9 to 11 by performing – among others – A/B testing on large datasets, find out the origin of differences and prepare software packages for installation by the production team. I also tested a major-scale multi-interconnected applications data merging project.
+- Transformed manual compilation and deployment procedures into a CI/CD framework using Maven, Nexus, Jenkins, Ansible, and Docker, significantly reducing deployment time and human error.
+- Automated web application GUI and REST API testing across multiple platforms and browsers.
+- Maintained codebase integrity using Git and Serena Dimensions for version control and change management.
+- Developed Bash and Python automation scripts to eliminate repetitive operational tasks and improve team efficiency.
+- Leveraged HP ALM to document defects, troubleshoot issues, and propose technical solutions and workarounds.
+- Designed and executed diverse testing approaches including functional, integration, performance, and acceptance tests tailored to project needs.
+- Administered Linux, Solaris, and AIX server environments, ensuring optimal system performance and availability.
+- Identified and optimized database performance by analyzing query bottlenecks and implementing efficiency improvements.
+- Created and maintained comprehensive testing and deployment documentation for operational knowledge transfer.
+- Orchestrated automated software packaging and deployment pipelines to streamline production releases.
+- Reported project status, metrics, and risk assessments to management and business stakeholders.
 
-- Automated manual tests into an automated testing tool (Squash TA) and maintain them.
-- Revamped manual compilation and deployment procedures into Continuous Integration and Deployment framework with Maven, Nexus, Jenkins, Ansible, and Docker.
-- Tested web applications GUI and web services interface.
-- Maintained source code using source control tools Git and Serena Dimensions.
-- Wrote Bash and Python scripts to automate the most frequent tasks.
-- Partook in Agile, waterfall and iterative project organizations.
-- Used HP ALM tools to report defects and troubleshoot them as well as propose solutions or workarounds.
-- Gathered requirements from Business Analysts, translate them to tests.
-- Wrote tests using various advanced testing concepts and procedure choose depending on the situation at hand.
-- Performed User Acceptance Tests as well as technical Qualification.
-- Managed Linux, Solaris and AIX servers.
-- Detected and analyzed database performance bottleneck queries.
-- Wrote and maintained testing and deployment documentation.
-- Packaged software with automatic deployment in production environments.
-- Communicated reports about ongoing projects status to management and business analysts.
+### Application Integration / DevOps, Gfi Informatique
 
-### Application Integration and Management of Production Environments, Gfi Informatique
-
-May 2011, September 2013
+> May 2011, September 2013
 
 Preparation of software updates in tests environments and installation into production environments. Partook the batch scheduler migration TNG to $Universe totaling 40k jobs and 1M+ executions per day.
 
-- Executed jobs in test environments with production data to test whether the new solution works as the previous one or not and needs corrections
-- Managed and supervised batch scheduling and files transfer with CFT/XFB
-- Prepared and scheduled for new jobs in production environment following the ITIL practices
-- Analyzed conformity and performances of shells, SQL scripts, binaries, ETL jobs
-- Developed various Windows and UNIX scripts to automate recurrent tasks
-- Wrote and updated documentation and procedures
-- Efficient reporting to management
+- Executed jobs in test environments with production data to validate solution equivalence and identify required corrections.
+- Managed and supervised batch scheduling and file transfers using CFT/XFB tools in pre-production and production environments.
+- Prepared and deployed new batch jobs to production following ITIL best practices and change management protocols.
+- Analyzed performance and conformity of shell scripts, SQL queries, binaries, and ETL jobs to optimize system efficiency.
+- Developed automation scripts for Windows and UNIX to streamline recurring operational tasks and reduce manual overhead.
+- Maintained comprehensive documentation of deployment procedures, run-books, and system configurations for operational continuity.
+- Provided performance reporting and metrics to management stakeholders on deployment health and system reliability.
 
-### Production Analyst / UNIX and Windows system Engineer, Atos
+### UNIX and Windows System Engineer / DevOps, Atos
 
-December 2008, May 2011
+> December 2008, May 2011
 
-Daily check-up and recovery of batch jobs and apply major software updates on productions servers following ITIL best practices.
-
-- Updated and created scripts in order to help and secure the most common routines checks and changes
-- Handled and took care of incidents and problems
-- Managed and supervised the batch schedulers of core applications
-- Administered Oracle databases, including the development of an automated databases recovery scripts using RMAN
-- Wrote and updated documentation and procedures
-- Efficient reporting to management
+- Performed daily operational monitoring, health checks, and recovery procedures for batch jobs and production servers, adhering to ITIL best practices.
+- Developed and maintained automation scripts in Bash and shell to streamline routine operations, enhance security, and reduce manual intervention.
+- Managed incident and problem resolution through swift diagnosis, troubleshooting, and implementation of corrective actions.
+- Supervised batch schedulers and job execution for mission-critical applications.
+- Administered Oracle databases, including designing and implementing automated recovery procedures using RMAN.
+- Documented operational procedures, runbooks, and post-incident reports for knowledge transfer and compliance.
+- Communicated system status, incidents, and performance metrics to management stakeholders.
 
 ## Education
 
@@ -97,8 +89,28 @@ Daily check-up and recovery of batch jobs and apply major software updates on pr
 - Developer Profession - Level 1 Foundation [IBM](https://www.credly.com/badges/fa28fb00-4504-4ec5-bdd4-5bbbe377880d?source=linked_in_profile)
 - Just Express (with a bunch of node and http). In detail. [Udemy](https://www.udemy.com/certificate/UC-c9606e46-0e5e-49cb-ae64-41dcb5c90743/)
 - Node JS: Advanced Concepts [Udemy](https://www.udemy.com/certificate/UC-ed17838d-9608-46e4-bea0-7ca01eca47bc/)
+- JavaScript Design Patterns [Udemy](https://www.udemy.com/certificate/UC-826f039d-eadb-4603-b915-9157014f8e69/)
 
 ## Languages
 
 - Native French
 - Fluent English
+
+## Volunteering
+
+### Union des Français de l’Étranger Ottawa-Gatineau
+
+> 2018-Present
+
+#### Member of the Board of administrator
+
+- Participate to board meetings and engage in event planning.
+- Oversee financial management, budgeting, and fundraising initiatives.
+- Ensure compliance with legal and regulatory requirements.
+- Review and approve organizational policies and procedures.
+
+### Technical lead
+
+- Manage and create content across our website; MailChimp mailing list; and our Facebook, LinkedIn and YouTube pages.
+- Administrator of our Google Workspace, Microsoft, and Canva accounts to provide secure access only to authorized users.
+- Perform Search Engine Optimization and analytics collection on our website.
