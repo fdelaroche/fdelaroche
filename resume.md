@@ -19,7 +19,7 @@ Motto: One man's software doesn't have to be another man's nightmare.
 - Architect and implement a robust, scalable automation framework (UI/API/REST) for IBM Watsonx BI Assistant (a cloud-based and AI-powered Data Analytics SaaS product), from proof-of-concept to General Release.
 - Drive continuous quality and velocity by engineering efficient automation suites that enable swift test refactoring following product changes and seamless integration of new feature coverage.
 - Integrate automated test suites into CI/CD pipelines, enabling continuous testing that significantly improves release confidence and reduces manual testing effort through proactive, early defect detection.
-- Champion product testability by collaborating closely with developers and product teams to design easier-to-test features, which accelerates test coverage growth and minimizes long-term maintenance overhead.
+- Champion product testability by collaborating closely with developers and product teams to design easier-to-test features, which accelerates test coverage growth and minimizes long-term maintenance overhead, and by shifting testing left in the development lifecycle.
 - Elevate team expertise by mentoring and coaching new hires on best practices for test readability, structure, and maintainability, fostering a strong, consistent quality culture.
 - Ensure long-term code health by actively contributing to clean, maintainable, and scalable code, and conducting detailed code reviews focused on actionable, improvement-oriented feedback.
 - Build scripts with NodeJS and TamperMonkey to improve navigating through builds, and to compile test results to speed up investigation.
@@ -83,6 +83,9 @@ Preparation of software updates in tests environments and installation into prod
 ## Education
 
 - MSc. Computer System Security with Distinction, 2008
+
+> University of South Wales, Cardiff, United Kingdom
+> 2008
 
 ## Badges
 
