@@ -12,7 +12,7 @@
 
 ## [DevDocs](https://devdocs.io/)
 
-Includes the doc of _many, many_ APIs. 
+Includes the doc of _many, many_ APIs.
 
 ## JavaScript / NodeJS
 
@@ -24,7 +24,7 @@ Includes the doc of _many, many_ APIs.
 ## Patching requests
 
 > [!WARNING]
->  `JSON Patch` and `JSON Merge Patch` are *not* the same!
+> `JSON Patch` and `JSON Merge Patch` are **not** the same!
 
 - [JSON Patch](https://jsonpatch.com/) Uses `application/json-patch+JSON` as `Content-Type` header for `PATCH` requests
 - [JSON Merge Patch](https://www.jsonmergepatch.com/) Uses `application/json as `Content-Type` header for `PATCH` requests
@@ -62,7 +62,7 @@ Includes the doc of _many, many_ APIs.
 - [Chrome DevTools in Selenium](https://applitools.com/blog/selenium-4-chrome-devtools/)
 - [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/)
 - [Puppeteer](https://pptr.dev/) [API] (https://pptr.dev/api) and [Browsers](https://pptr.dev/browsers-api) documentation
-- [Chrome for testing](https://developer.chrome.com/blog/chrome-for-testing) and its design considerations [here](https://docs.google.com/document/d/1XJvxyqAQjhPfJ0rX84PjfXXb5sBx3m8DXzMxR0ipQNs/edit?tab=t.0#heading=h.xzptrog8pyxf), and its [GitHub repo](https://github.com/GoogleChromeLabs/chrome-for-testing).
+- [Chrome for testing](https://developer.chrome.com/blog/chrome-for-testing) and its [design considerations](https://docs.google.com/document/d/1XJvxyqAQjhPfJ0rX84PjfXXb5sBx3m8DXzMxR0ipQNs/edit?tab=t.0#heading=h.xzptrog8pyxf), and its [GitHub repo](https://github.com/GoogleChromeLabs/chrome-for-testing).
 - [Chrome's self-SSL protection](https://developer.chrome.com/blog/self-xss) and how to disable it for automation
 
 ## Visual Studio Code

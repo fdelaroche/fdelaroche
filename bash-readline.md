@@ -9,18 +9,23 @@ The Meta key refers to the Option key on Mac, and Alt on Windows keyboard.
 Note that on MacOS, you need to turn on an option in your terminal emulator to "let the shell handle the Meta key" to send Meta key presses to the shell. Otherwise, it will be used to enter special characters and make all Meta commands inaccessible.
 
 ## emacs vs. vi Keyboard Shortcuts
+
 The bellow instructions assume you're using the default keyboard shortcut configuration in bash. By default, bash uses emacs-style keys. If you're more used to the vi text editor, you can switch to vi-style keyboard shortcuts.
 
 The following command will put bash into vi mode:
-```
+
+```bash
 set -o vi
 ```
+
 The following command will put bash back into the default emacs mode:
-```
+
+```bash
 set -o emacs
 ```
 
 ## Working With Processes
+
 Use the following shortcuts to manage running processes.
 
 - Ctrl+C: Interrupt (kill) the current foreground process running in in the terminal. This sends the SIGINT signal to the process, which is technically just a request — most processes will honor it, but some may ignore it.
@@ -28,6 +33,7 @@ Use the following shortcuts to manage running processes.
 - Ctrl+D: Close the bash shell. This sends an EOF (End-of-file) marker to bash, and bash exits when it receives this marker. This is similar to running the exit command.
 
 ## Controlling the Screen
+
 The following shortcuts allow you to control what appears on the screen.
 
 - Ctrl+L: Clear the screen. This is similar to running the "clear" command.
@@ -35,6 +41,7 @@ The following shortcuts allow you to control what appears on the screen.
 - Ctrl+Q: Resume output to the screen after stopping it with Ctrl+S.
 
 ## Moving the Cursor
+
 Use the following shortcuts to quickly move the cursor around the current line while typing a command.
 
 - Ctrl+A or Home: Go to the beginning of the line.
@@ -46,6 +53,7 @@ Use the following shortcuts to quickly move the cursor around the current line w
 - Ctrl+XX: Move between the beginning of the line and the current position of the cursor. This allows you to press Ctrl+XX to return to the start of the line, change something, and then press Ctrl+XX to go back to your original cursor position. To use this shortcut, hold the Ctrl key and tap the X key twice.
 
 ## Deleting Text
+
 Use the following shortcuts to quickly delete characters:
 
 - Ctrl+D or Delete: Delete the character under the cursor.
@@ -53,6 +61,7 @@ Use the following shortcuts to quickly delete characters:
 - Ctrl+H or Backspace: Delete the character before the cursor.
 
 ## Fixing Typos
+
 These shortcuts allow you to fix typos and undo your key presses.
 
 - Meta+T: Swap the current word with the previous word.
@@ -60,6 +69,7 @@ These shortcuts allow you to fix typos and undo your key presses.
 - Ctrl+_: Undo your last key press. You can repeat this to undo multiple times.
 
 ## Cutting and Pasting
+
 Bash includes some basic cut-and-paste features.
 
 - Ctrl+W: Cut the word before the cursor, adding it to the clipboard.
@@ -68,6 +78,7 @@ Bash includes some basic cut-and-paste features.
 - Ctrl+Y: Paste the last thing you cut from the clipboard. The y here stands for "yank".
 
 ## Capitalizing Characters
+
 The bash shell can quickly convert characters to upper or lower case:
 
 - Meta+U: Capitalize every character from the cursor to the end of the current word, converting the characters to upper case.
@@ -75,6 +86,7 @@ The bash shell can quickly convert characters to upper or lower case:
 - Meta+C: Capitalize the character under the cursor. Your cursor will move to the end of the current word.
 
 ## Working With Your Command History
+
 You can quickly scroll through your recent commands, which are stored in your user account's bash history file:
 
 - Ctrl+P or Up Arrow: Go to the previous command in the command history. Press the shortcut multiple times to walk back through the history.

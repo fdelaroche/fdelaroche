@@ -33,11 +33,13 @@ In `tmux`, each session can have multiple window, and each window can be divided
 - `r`: Reload config file (`.tmux.conf`).
 
 ## Session
+
 - `s`: list sessions.
 - `$`: rename current session.
 - `d`: Detach from the session, or call `tmux detach`.
 
 ## Windows
+
 - `c`: Create a new window within the current session.
 - `,`: Rename the current window.
 - `n`: Move to the next window, `p` for the previous window.
@@ -45,6 +47,7 @@ In `tmux`, each session can have multiple window, and each window can be divided
 - `w`: List current windows (Note that the list may appear in the Terminal window title, not *in* the Terminal window).
 
 ## Panes
+
 - `%`:  Split the current window vertically. `"` to split vertically.
 - `h`: move to the left pane.
 - `l`: move to the right pane
@@ -67,13 +70,15 @@ Alternatively, all other sessions can be detached by issuing `tmux detach -a`.
 ### Add a local alias into your shell config (`~/.bash_profile` or `~/.zprofile`)
 
 *Update the alias and host name accordingly.*
-```
+
+```bash
 # SSH aliases
-alias ssh-outaram1="ssh outaram1 -t tmux a"
+alias ssh-outaram1="ssh mybox -t tmux a"
 ```
 
 ### Add an auto-run into your remote shell config
-```
+
+```bash
 # tmux
 if [-z "$TMUX" ]; then
 tmux attach -t default || tmux new -s default
@@ -82,13 +87,17 @@ tmux attach -t default || tmux new -s default
 *Note that both can be set at the same time.*
 
 ## SSH aliases
-```
-alias ssh-outaram1="ssh outaram1 -t tmux a"
+
+```bash
+alias ssh-outaram1="ssh mybox -t tmux a"
 ```
 
 ## Enable mouse scrollback
+
 Add the folling snipet into `~/.tmux.conf`
-```
+
+```bash
 set -g mouse on
 ```
+
 Or temporarly enable it in `tmux` with `^b+:`, then `set -g mouse`.

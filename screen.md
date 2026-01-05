@@ -49,6 +49,7 @@ Each `screen` session can hold multiple windows.
 - `t`: Display the current time, hostname, and load average.
 
 ## Windows
+
 - `c`: Create a new window within the current session.
 - `w`: List current windows (Note that the list may appear in the Terminal window title, not *in* the Terminal window).
 - `n`: Move to the next window, `p` for the previous window.
@@ -59,6 +60,7 @@ Each `screen` session can hold multiple windows.
 - `A`: Change the name to the current window.
 
 ## Panes
+
 - `|`: Split the current window vertically. The left pane will contain the current window, the right one will have none. Use other commands to attach a window to it or create a new one.
 - `S`: Split the current window horizontally.
 - `tab`: Move to the next pane
