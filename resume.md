@@ -16,11 +16,13 @@ Motto: One man's software doesn't have to be another man's nightmare.
 
 > IBM, August 2023, Present
 
-- Architect and implement a robust, scalable automation framework (UI/API/REST) for IBM Watsonx BI Assistant (a cloud-based and AI-powered Data Analytics SaaS product), from proof-of-concept to General Release.
-- Designed and implemented REST APIs and integrated micro-services, ensuring seamless data mapping (JSON) between complex system components.
-- Utilized IaC approaches to deploy tools and solutions within containerized environments (Docker/Kubernetes).
-- Managed complex branching and merging strategies using Git and GitHub to support parallel development streams.
-- Drive continuous quality and velocity by engineering efficient automation suites that enable swift test refactoring following product changes and seamless integration of new feature coverage.
+- Architect and implement a scalable automation framework (API/REST and UI) for a high-availability AI-powered SaaS platform, focusing on the reliability and performance of foundational backend services.
+- Design and implement REST APIs and integrate micro-services, ensuring seamless data mapping (JSON) between complex system components.
+- Engineer comprehensive test strategies for distributed systems, ensuring the scalability of critical services such as authentication and data processing pipelines.
+- Utilize an Infrastructure as Code approaches to deploy tools and solutions within containerized environments (Docker/Kubernetes).
+- Manage complex branching and merging strategies using Git and GitHub to support parallel development streams.
+- Validate secure UI and API access by testing token authentication and verifying Role-Based Access Control (RBAC) permissions across multi-tenant SaaS environments.
+- Drive continuous quality by engineering efficient automation suites that enable swift test refactoring following product changes and seamless integration of new feature coverage.
 - Integrate automated test suites into CI/CD pipelines, enabling continuous testing that significantly improves release confidence and reduces manual testing effort through proactive, early defect detection.
 - Champion product testability by collaborating closely with developers and product teams to design easier-to-test features, which accelerates test coverage growth and minimizes long-term maintenance overhead, and by shifting testing left in the development lifecycle.
 - Elevate team expertise by mentoring and coaching new hires on best practices for test readability, structure, and maintainability, fostering a strong, consistent quality culture.
@@ -35,13 +37,13 @@ Tools: JavaScript, NodeJS, Git, GitHub, Selenium, Docker, Jenkins, REST API with
 
 > IBM, May 2018, August 2023
 
-- Developed and executed automated tests using Selenium v3 and 4, Node.js with theIntern/Leadfoot framework for new features and enhancements IBM for Cognos Analytics (Dashboard/Storytelling/Explore modules), providing comprehensive test coverage across both on-premises and cloud deployments.
+- Developed and maintained automated testing frameworks for front-end and back-end services and micro-services using Node.js and Selenium, providing coverage for both cloud and on-premises deployments.
 - Created, maintained and executed test cases of different kind (functional, regression, conformance, confidence, accessibility, etc.) in qTest and TestRail.
-- Scrum master of teams of 5 to 12 people.
+- Served as Scrum Master for globally distributed teams of up to 12 people, facilitating sprint activities and ensuring alignment on technical timelines and quality goals.
 - Investigated and logged issues in Jira and verified fixes.
 - Collaborated with developers to ensure new features could be easily tested, were bug-free and did not introduce regressions.
-- Consolidated design choices and application behaviours with developers, UX, Product Managers, etc.
-- Helped customers with incident and problem troubleshooting.
+- Consolidated design choices and application behaviors with developers, UX, Product Managers, etc.
+- Provided technical troubleshooting for high-priority customer incidents, performing root cause analysis and tracking progress of the fix.
 
 ### Quality Assurance Analyst / DevOps, Sogeti
 
