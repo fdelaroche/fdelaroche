@@ -14,9 +14,12 @@ Motto: One man's software doesn't have to be another man's nightmare.
 
 ### Senior Software Developer in Test, IBM Watsonx BI Assistant
 
-> August 2023, present
+> IBM, August 2023, Present
 
 - Architect and implement a robust, scalable automation framework (UI/API/REST) for IBM Watsonx BI Assistant (a cloud-based and AI-powered Data Analytics SaaS product), from proof-of-concept to General Release.
+- Designed and implemented REST APIs and integrated micro-services, ensuring seamless data mapping (JSON) between complex system components.
+- Utilized IaC approaches to deploy tools and solutions within containerized environments (Docker/Kubernetes).
+- Managed complex branching and merging strategies using Git and GitHub to support parallel development streams.
 - Drive continuous quality and velocity by engineering efficient automation suites that enable swift test refactoring following product changes and seamless integration of new feature coverage.
 - Integrate automated test suites into CI/CD pipelines, enabling continuous testing that significantly improves release confidence and reduces manual testing effort through proactive, early defect detection.
 - Champion product testability by collaborating closely with developers and product teams to design easier-to-test features, which accelerates test coverage growth and minimizes long-term maintenance overhead, and by shifting testing left in the development lifecycle.
@@ -24,18 +27,21 @@ Motto: One man's software doesn't have to be another man's nightmare.
 - Ensure long-term code health by actively contributing to clean, maintainable, and scalable code, and conducting detailed code reviews focused on actionable, improvement-oriented feedback.
 - Build scripts with NodeJS and TamperMonkey to improve navigating through builds, and to compile test results to speed up investigation.
 - Spearhead the evaluation and adoption of modern testing tools (e.g., Cypress) to continuously optimize test execution speed, reliability, ease of debugging, and traceability.
+- Regular use of Bash/Zsh scripts to automate recurring activities.
+
+Tools: JavaScript, NodeJS, Git, GitHub, Selenium, Docker, Jenkins, REST API with JSON payloads, Insomnia, PostMan, Jira, TestRail, qTest, Artifactory, Kubernetes, IBM Cloud services, IAM/Identity and Access Management, MySQL, MongoDB, CentOS/RedHat Linux, Infrastructure as Code (IaC).
 
 ### Software Developer in Test, IBM Cognos Analytics
 
-> May 2018, August 2023
+> IBM, May 2018, August 2023
 
 - Developed and executed automated tests using Selenium v3 and 4, Node.js with theIntern/Leadfoot framework for new features and enhancements IBM for Cognos Analytics (Dashboard/Storytelling/Explore modules), providing comprehensive test coverage across both on-premises and cloud deployments.
--Created, maintained and executed test cases of different kind (functional, regression, conformance, confidence, etc.) in qTest and TestRail.
+- Created, maintained and executed test cases of different kind (functional, regression, conformance, confidence, accessibility, etc.) in qTest and TestRail.
 - Scrum master of teams of 5 to 12 people.
 - Investigated and logged issues in Jira and verified fixes.
 - Collaborated with developers to ensure new features could be easily tested, were bug-free and did not introduce regressions.
 - Consolidated design choices and application behaviours with developers, UX, Product Managers, etc.
-- Provided assistance to customers with incident and problem troubleshooting.
+- Helped customers with incident and problem troubleshooting.
 
 ### Quality Assurance Analyst / DevOps, Sogeti
 
