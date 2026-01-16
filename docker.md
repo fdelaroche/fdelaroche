@@ -38,7 +38,7 @@ docker rm -f dummy
 ## List the mounts of a container
 
 ```bash
-docker inspect cognos-analytics | jq '.[0].Mounts'
+docker inspect <container> | jq '.[0].Mounts'
 ```
 
 ## Generate a command line to start a container with the same parameters

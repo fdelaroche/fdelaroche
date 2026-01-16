@@ -94,7 +94,7 @@ alias ssh-outaram1="ssh mybox -t tmux a"
 
 ## Enable mouse scrollback
 
-Add the folling snipet into `~/.tmux.conf`
+Add the following snippet into `~/.tmux.conf`
 
 ```bash
 set -g mouse on
