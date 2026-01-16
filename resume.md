@@ -23,7 +23,7 @@ Motto: One man's software doesn't have to be another man's nightmare.
 - Manage complex branching and merging strategies using Git and GitHub to support parallel development streams.
 - Validate secure UI and API access by testing token authentication and verifying Role-Based Access Control (RBAC) permissions across multi-tenant SaaS environments.
 - Drive continuous quality by engineering efficient automation suites that enable swift test refactoring following product changes and seamless integration of new feature coverage.
-- Integrate automated test suites into CI/CD pipelines, enabling continuous testing that significantly improves release confidence and reduces manual testing effort through proactive, early defect detection.
+- Integrate automated test suites into CI/CD pipelines, enabling continuous testing that significantly improves release confidence and reduces manual testing effort through early defect detection.
 - Champion product testability by collaborating closely with developers and product teams to design easier-to-test features, which accelerates test coverage growth and minimizes long-term maintenance overhead, and by shifting testing left in the development lifecycle.
 - Elevate team expertise by mentoring and coaching new hires on best practices for test readability, structure, and maintainability, fostering a strong, consistent quality culture.
 - Ensure long-term code health by actively contributing to clean, maintainable, and scalable code, and conducting detailed code reviews focused on actionable, improvement-oriented feedback.
@@ -85,7 +85,7 @@ Preparation of software updates in tests environments and installation into prod
 - Managed incident and problem resolution through swift diagnosis, troubleshooting, and implementation of corrective actions.
 - Supervised batch schedulers and job execution for mission-critical applications.
 - Administered Oracle databases, including designing and implementing automated recovery procedures using RMAN.
-- Documented operational procedures, runbooks, and post-incident reports for knowledge transfer and compliance.
+- Documented operational procedures, run-books, and post-incident reports for knowledge transfer and compliance.
 - Communicated system status, incidents, and performance metrics to management stakeholders.
 
 ## Education
