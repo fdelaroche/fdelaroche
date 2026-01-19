@@ -11,7 +11,7 @@ pyenv local x.xx
 ## Create a new `venv`
 
 ```bash
-python =m venv .venv
+python -m venv .venv
 ```
 
 and activate it with
