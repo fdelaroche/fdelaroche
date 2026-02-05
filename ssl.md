@@ -1,5 +1,11 @@
 # SSL
 
+## Generate an Ed25519 key-pair
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
 ## Generate a 2048-bit RSA private key and Certificate Signing Request (CSR)
 
 ```bash
