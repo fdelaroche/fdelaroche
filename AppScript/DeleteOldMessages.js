@@ -31,7 +31,7 @@ const rules = [
 function main() {
 	try {
 		for (const rule of rules) {
-			Logger.log("Running rule: " + rule.name);
+			Logger.log(`Running rule: ${rule.name}`);
 			processDelete(rule);
 		};
 	} catch (error) {
@@ -111,7 +111,7 @@ function processDelete({label, ignoreLabeled, sender, age, title}) {
 	const searchQuery = buildSearchQuery({label, sender, age, title});
 	const threads = GmailApp.search(searchQuery);
 	
-	Logger.log("Threads found: " + threads.length);
+	Logger.log(`Threads found: ${threads.length}`);
 	const threadsToDelete = [];
 
 	for (const thread of threads) {
