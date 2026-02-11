@@ -52,7 +52,7 @@ Here's a practical reference for working with Windows Subsystem for Linux 2:
 memory=4GB
 processors=2
 localhostForwarding=true
-swap=8GB
+swap=0
 ```
 
 **Per-distro config** (`/etc/wsl.conf` inside Linux):
@@ -65,9 +65,11 @@ systemd=true
 generateResolvConf=true
 
 [interop]
-enabled=true
-appendWindowsPath=true
+enabled=false
+appendWindowsPath=false
 ```
+
+[Documentation of every configuration keys](https://learn.microsoft.com/en-us/windows/wsl/wsl-config)
 
 ## Networking
 
@@ -96,7 +98,3 @@ appendWindowsPath=true
 
 - `wsl --export <DistroName> <FileName.tar>` - Backup a distribution
 - `wsl --import <DistroName> <InstallLocation> <FileName.tar>` - Restore from backup
-
-## Disable swap
-
-To configure a specific VM, open `/etc/wsl.conf`, or edit/create `%UserProfile%/.wslconfig` for system-wide configuration, then add `swap=0` to the `[wsl2]` section.
