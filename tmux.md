@@ -100,4 +100,4 @@ Add the following snippet into `~/.tmux.conf`
 set -g mouse on
 ```
 
-Or temporarly enable it in `tmux` with `^b+:`, then `set -g mouse`.
+Or temporarily enable it in `tmux` with `^b+:`, then `set -g mouse`.

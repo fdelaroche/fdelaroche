@@ -98,3 +98,11 @@ appendWindowsPath=false
 
 - `wsl --export <DistroName> <FileName.tar>` - Backup a distribution
 - `wsl --import <DistroName> <InstallLocation> <FileName.tar>` - Restore from backup
+
+**Map a WSL directory to a local drive**
+
+Example to map my home folder of the Ubuntu distribution to drive L:
+
+```ps
+subst L:  \\wsl.localhost\Ubuntu\home\frederic
+```
