@@ -103,6 +103,6 @@ appendWindowsPath=false
 
 Example to map my home folder of the Ubuntu distribution to drive L:
 
-```ps
-subst L:  \\wsl.localhost\Ubuntu\home\frederic
+```bat
+subst L: \\wsl.localhost\Ubuntu\home\frederic
 ```
