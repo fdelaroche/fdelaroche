@@ -6,4 +6,4 @@ This repo is my collection of cheat sheets, useful URLs and small projects. Enjo
 
 ## Projects
 
-- Automated email cleanup using Google Apps Script. [Documentation](AppScript/README.md) and [code](AppScript/DeleteOldMessages.js)
+- Automated email cleanup using Google Apps Script and the [Gmail API](https://developers.google.com/apps-script/reference/gmail?authuser=4). [Documentation](AppScript/README.md) and [code](AppScript/DeleteOldMessages.js)
