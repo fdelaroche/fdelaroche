@@ -1,0 +1,32 @@
+meta {
+  name: liveness-restore
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{host}}/trigger/liveness-restore
+  body: none
+  auth: inherit
+}
+
+tests {
+  test("status should be 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("content-type should be json", function() {
+    expect(res.getHeader("content-type")).to.contain("application/json");
+  });
+  
+  test("Body: liveness is restored", function() {
+    const body = res.getBody();
+    expect(body).to.have.property("message");
+    expect(body.message).to.equal("Liveness probe restored");
+  })
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

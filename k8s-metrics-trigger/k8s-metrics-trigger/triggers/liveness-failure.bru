@@ -1,0 +1,40 @@
+meta {
+  name: liveness-failure
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{host}}/trigger/liveness-failure
+  body: none
+  auth: inherit
+}
+
+script:post-response {
+    const response = await bru.runRequest("healthz/liveness");
+    expect(response.status).to.be.equal(500);
+    expect(response.data).to.be.equal("Liveness probe failed");
+}
+
+tests {
+  test("status should be 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("content-type should be json", function() {
+    expect(res.getHeader("content-type")).to.contain("application/json");
+  });
+  
+  test("Body: liveness is failing", function() {
+    const body = res.getBody();
+    expect(body).to.have.property("message");
+    expect(body).to.have.property("metric");
+    expect(body.metric).to.equal("liveness_probe_failure");
+  });
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -1,0 +1,27 @@
+meta {
+  name: index
+  type: http
+  seq: 0
+}
+
+get {
+  url: {{host}}/
+  body: none
+  auth: inherit
+}
+
+tests {
+  test("status should be 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("content-type should be json", function() {
+    expect(res.getHeader("content-type")).to.contain("application/json");
+  });
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

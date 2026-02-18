@@ -1,0 +1,27 @@
+meta {
+  name: startup
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{host}}/healthz/startup
+  body: none
+  auth: inherit
+}
+
+tests {
+  test("status should be 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("content should be OK", function() {
+    expect(res.getBody()).to.equal("OK");
+  });
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

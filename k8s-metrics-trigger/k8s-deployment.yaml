@@ -1,0 +1,105 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: metrics-test
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: metrics-trigger-app
+  namespace: metrics-test
+  labels:
+    app: metrics-trigger
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: metrics-trigger
+  template:
+    metadata:
+      labels:
+        app: metrics-trigger
+    spec:
+      containers:
+      - name: metrics-trigger
+        image: k8s-metrics-trigger:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
+          name: http
+        
+        # Resource requests and limits (to trigger resource-related metrics)
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "512Mi"  # Set low to easily trigger OOMKilled
+            cpu: "500m"
+        
+        # Liveness probe - checks if container should be restarted
+        livenessProbe:
+          httpGet:
+            path: /healthz/liveness
+            port: 3000
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        
+        # Readiness probe - checks if container can receive traffic
+        readinessProbe:
+          httpGet:
+            path: /healthz/readiness
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 2
+        
+        # Startup probe - checks if application has started
+        startupProbe:
+          httpGet:
+            path: /healthz/startup
+            port: 3000
+          initialDelaySeconds: 0
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 30
+        
+        env:
+        - name: PORT
+          value: "3000"
+        - name: NODE_ENV
+          value: "production"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: metrics-trigger-service
+  namespace: metrics-test
+spec:
+  selector:
+    app: metrics-trigger
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 3000
+  type: ClusterIP
+---
+# Optional: Service for external access
+apiVersion: v1
+kind: Service
+metadata:
+  name: metrics-trigger-nodeport
+  namespace: metrics-test
+spec:
+  selector:
+    app: metrics-trigger
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 3000
+    nodePort: 30080
+  type: NodePort
+  

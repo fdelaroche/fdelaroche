@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "k8s-metrics-trigger",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
