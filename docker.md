@@ -1,5 +1,9 @@
 # Docker
 
+## Tool for image manipulation
+
+[Skopeo](https://github.com/containers/skopeo)
+
 ## Copy a file to/from a docker container to the local filesystem
 
 Example for an nginx config file.

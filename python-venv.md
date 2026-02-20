@@ -2,6 +2,8 @@
 
 ## pyenv
 
+https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv
+
 Set the version of Python for the current folder:
 
 ```bash

@@ -10,9 +10,17 @@
 - [LangFlow](https://www.langflow.org/)
 - [Qodo](https://www.qodo.ai/) for code reviews
 
-## [DevDocs](https://devdocs.io/)
+## Tools
 
-Includes the doc of _many, many_ APIs.
+- [CodeBeautify: Many tools like JSON beautifier](https://codebeautify.org/)
+- [FreeFormatter: Alternative to CodeBeautify](https://www.freeformatter.com/)
+- [RegEx101](https://regex101.com/)
+
+## Dev
+
+- [DevDocs](https://devdocs.io/)
+- [Design patterns in JS and others](https://www.patterns.dev/vanilla/)
+- [OWASP Cheat Sheet](https://cheatsheetseries.owasp.org/index.html)
 
 ## JavaScript / NodeJS
 
@@ -20,6 +28,8 @@ Includes the doc of _many, many_ APIs.
 - [nodenv](https://github.com/nodenv/nodenv)
 - [nvm](https://github.com/nvm-sh/nvm)
 - [Express.js](https://github.com/robertbunch/justExpress/tree/master) source code from Robert Bunch's training for Express.js available on Udemy
+- [`jq`](https://jqlang.org/manual/)
+- [`jq` playground](https://play.jqlang.org/)
 
 ## Patching requests
 
@@ -31,6 +41,7 @@ Includes the doc of _many, many_ APIs.
 
 ## Git
 
+- [Oh Shit Git](https://ohshitgit.com/)
 - [git-lfs tutorial](https://github.com/git-lfs/git-lfs/wiki/Tutorial)
 - [Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 - Worktree
@@ -39,6 +50,7 @@ Includes the doc of _many, many_ APIs.
 
 ## GitHub
 
+- [REST API](https://docs.github.com/en/enterprise-server@3.13/rest/quickstart?apiVersion=2022-11-28)
 - [Call the GraphQL API](https://docs.github.com/en/graphql/guides/forming-calls-with-graphql)
 - [GraphQL Objects API](https://docs.github.com/en/graphql/reference/objects)
 - [GraphQL API on ApolloGraphQL](https://studio.apollographql.com/public/github/variant/current/home)
@@ -58,14 +70,18 @@ Includes the doc of _many, many_ APIs.
 ## UI testing
 
 - [Selenium WebDriver doc](https://www.selenium.dev/documentation/webdriver/)
+- [Selenium JavaScript API](https://www.selenium.dev/selenium/docs/api/javascript/)
 - [Selenium popularity and other metrics](https://snyk.io/advisor/npm-package/selenium-webdriver), also includes [a collections of examples](https://snyk.io/advisor/npm-package/selenium-webdriver/example) for each function
 - [Chrome DevTools in Selenium](https://applitools.com/blog/selenium-4-chrome-devtools/)
 - [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/)
 - [Puppeteer](https://pptr.dev/) [API] (https://pptr.dev/api) and [Browsers](https://pptr.dev/browsers-api) documentation
 - [Chrome for testing](https://developer.chrome.com/blog/chrome-for-testing) and its [design considerations](https://docs.google.com/document/d/1XJvxyqAQjhPfJ0rX84PjfXXb5sBx3m8DXzMxR0ipQNs/edit?tab=t.0#heading=h.xzptrog8pyxf), and its [GitHub repo](https://github.com/GoogleChromeLabs/chrome-for-testing).
 - [Chrome's self-SSL protection](https://developer.chrome.com/blog/self-xss) and how to disable it for automation
+- [MDN CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+- [Centering using CSS](https://css-tricks.com/centering-css-complete-guide/)
 
-## Visual Studio Code
+
+## VS Code
 
 - [Use MCP servers in VS Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers#_use-mcp-tools-in-agent-mode)
 - [vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator)
